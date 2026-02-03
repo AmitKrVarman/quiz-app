@@ -1,0 +1,1206 @@
+{
+    "title": "Mock Question Paper for USO National Tests 2025 - Grade 1 or Below",
+    "questions": [
+        {
+            "id": 1,
+            "subject": "Mental Math",
+            "question": "What is 1 + 1?",
+            "options": [
+                "A: 1",
+                "B: 2",
+                "C: 3",
+                "D: 4"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 2,
+            "subject": "Mental Math",
+            "question": "What is 1 + 2?",
+            "options": [
+                "A: 2",
+                "B: 3",
+                "C: 4",
+                "D: 5"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 3,
+            "subject": "Mental Math",
+            "question": "What is 1 + 3?",
+            "options": [
+                "A: 3",
+                "B: 4",
+                "C: 5",
+                "D: 6"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 4,
+            "subject": "Mental Math",
+            "question": "What is 1 + 4?",
+            "options": [
+                "A: 4",
+                "B: 5",
+                "C: 6",
+                "D: 7"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 5,
+            "subject": "Mental Math",
+            "question": "What is 1 + 5?",
+            "options": [
+                "A: 5",
+                "B: 6",
+                "C: 7",
+                "D: 8"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 6,
+            "subject": "Mental Math",
+            "question": "What is 2 + 1?",
+            "options": [
+                "A: 2",
+                "B: 3",
+                "C: 4",
+                "D: 5"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 7,
+            "subject": "Mental Math",
+            "question": "What is 2 + 2?",
+            "options": [
+                "A: 3",
+                "B: 4",
+                "C: 5",
+                "D: 6"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 8,
+            "subject": "Mental Math",
+            "question": "What is 2 + 3?",
+            "options": [
+                "A: 4",
+                "B: 5",
+                "C: 6",
+                "D: 7"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 9,
+            "subject": "Mental Math",
+            "question": "What is 2 + 4?",
+            "options": [
+                "A: 5",
+                "B: 6",
+                "C: 7",
+                "D: 8"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 10,
+            "subject": "Mental Math",
+            "question": "What is 2 + 5?",
+            "options": [
+                "A: 6",
+                "B: 7",
+                "C: 8",
+                "D: 9"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 11,
+            "subject": "Mental Math",
+            "question": "What is 3 + 1?",
+            "options": [
+                "A: 3",
+                "B: 4",
+                "C: 5",
+                "D: 6"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 12,
+            "subject": "Mental Math",
+            "question": "What is 3 + 2?",
+            "options": [
+                "A: 4",
+                "B: 5",
+                "C: 6",
+                "D: 7"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 13,
+            "subject": "Mental Math",
+            "question": "What is 3 + 3?",
+            "options": [
+                "A: 5",
+                "B: 6",
+                "C: 7",
+                "D: 8"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 14,
+            "subject": "Mental Math",
+            "question": "What is 3 + 4?",
+            "options": [
+                "A: 6",
+                "B: 7",
+                "C: 8",
+                "D: 9"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 15,
+            "subject": "Mental Math",
+            "question": "What is 3 + 5?",
+            "options": [
+                "A: 7",
+                "B: 8",
+                "C: 9",
+                "D: 10"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 16,
+            "subject": "Mental Math",
+            "question": "What is 4 + 1?",
+            "options": [
+                "A: 4",
+                "B: 5",
+                "C: 6",
+                "D: 7"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 17,
+            "subject": "Mental Math",
+            "question": "What is 4 + 2?",
+            "options": [
+                "A: 5",
+                "B: 6",
+                "C: 7",
+                "D: 8"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 18,
+            "subject": "Mental Math",
+            "question": "What is 4 + 3?",
+            "options": [
+                "A: 6",
+                "B: 7",
+                "C: 8",
+                "D: 9"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 19,
+            "subject": "Mental Math",
+            "question": "What is 4 + 4?",
+            "options": [
+                "A: 7",
+                "B: 8",
+                "C: 9",
+                "D: 10"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 20,
+            "subject": "Mental Math",
+            "question": "What is 4 + 5?",
+            "options": [
+                "A: 8",
+                "B: 9",
+                "C: 10",
+                "D: 11"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 21,
+            "subject": "Mental Math",
+            "question": "What is 5 + 1?",
+            "options": [
+                "A: 5",
+                "B: 6",
+                "C: 7",
+                "D: 8"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 22,
+            "subject": "Mental Math",
+            "question": "What is 5 + 2?",
+            "options": [
+                "A: 6",
+                "B: 7",
+                "C: 8",
+                "D: 9"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 23,
+            "subject": "Mental Math",
+            "question": "What is 5 + 3?",
+            "options": [
+                "A: 7",
+                "B: 8",
+                "C: 9",
+                "D: 10"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 24,
+            "subject": "Mental Math",
+            "question": "What is 5 + 4?",
+            "options": [
+                "A: 8",
+                "B: 9",
+                "C: 10",
+                "D: 11"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 25,
+            "subject": "Mental Math",
+            "question": "What is 5 + 5?",
+            "options": [
+                "A: 9",
+                "B: 10",
+                "C: 11",
+                "D: 12"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 26,
+            "subject": "English Skills",
+            "question": "Opposite of big?",
+            "options": [
+                "A: small",
+                "B: large",
+                "C: tall",
+                "D: short"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 27,
+            "subject": "English Skills",
+            "question": "Opposite of happy?",
+            "options": [
+                "A: joyful",
+                "B: sad",
+                "C: happy",
+                "D: glad"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 28,
+            "subject": "English Skills",
+            "question": "The sun is _____ .",
+            "options": [
+                "A: cold",
+                "B: blue",
+                "C: hot",
+                "D: green"
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": 29,
+            "subject": "English Skills",
+            "question": "A bird can _____ .",
+            "options": [
+                "A: fly",
+                "B: swim",
+                "C: run",
+                "D: jump"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 30,
+            "subject": "English Skills",
+            "question": "Opposite of day?",
+            "options": [
+                "A: morning",
+                "B: evening",
+                "C: afternoon",
+                "D: night"
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": 31,
+            "subject": "English Skills",
+            "question": "What is the first letter of apple?",
+            "options": [
+                "A: A",
+                "B: B",
+                "C: C",
+                "D: D"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 32,
+            "subject": "English Skills",
+            "question": "How many letters in 'cat'?",
+            "options": [
+                "A: 2",
+                "B: 3",
+                "C: 4",
+                "D: 5"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 33,
+            "subject": "English Skills",
+            "question": "Opposite of up?",
+            "options": [
+                "A: down",
+                "B: left",
+                "C: right",
+                "D: up"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 34,
+            "subject": "English Skills",
+            "question": "The color of sky is?",
+            "options": [
+                "A: blue",
+                "B: red",
+                "C: green",
+                "D: yellow"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 35,
+            "subject": "English Skills",
+            "question": "A dog says?",
+            "options": [
+                "A: bark",
+                "B: meow",
+                "C: quack",
+                "D: moo"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 36,
+            "subject": "English Skills",
+            "question": "Opposite of fast?",
+            "options": [
+                "A: quick",
+                "B: slow",
+                "C: rapid",
+                "D: speedy"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 37,
+            "subject": "English Skills",
+            "question": "What is a baby cat called?",
+            "options": [
+                "A: kitten",
+                "B: puppy",
+                "C: calf",
+                "D: foal"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 38,
+            "subject": "English Skills",
+            "question": "The opposite of full?",
+            "options": [
+                "A: empty",
+                "B: complete",
+                "C: filled",
+                "D: whole"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 39,
+            "subject": "English Skills",
+            "question": "What do we use to see?",
+            "options": [
+                "A: eyes",
+                "B: ears",
+                "C: nose",
+                "D: mouth"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 40,
+            "subject": "English Skills",
+            "question": "Opposite of light?",
+            "options": [
+                "A: bright",
+                "B: dark",
+                "C: heavy",
+                "D: light"
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": 41,
+            "subject": "English Skills",
+            "question": "A fish lives in?",
+            "options": [
+                "A: water",
+                "B: air",
+                "C: land",
+                "D: tree"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 42,
+            "subject": "English Skills",
+            "question": "Opposite of old?",
+            "options": [
+                "A: new",
+                "B: ancient",
+                "C: young",
+                "D: old"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 43,
+            "subject": "English Skills",
+            "question": "What is the capital of India?",
+            "options": [
+                "A: Delhi",
+                "B: Mumbai",
+                "C: Kolkata",
+                "D: Chennai"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 44,
+            "subject": "English Skills",
+            "question": "Opposite of wet?",
+            "options": [
+                "A: dry",
+                "B: moist",
+                "C: wet",
+                "D: damp"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 45,
+            "subject": "English Skills",
+            "question": "The shape of a ball is?",
+            "options": [
+                "A: round",
+                "B: square",
+                "C: triangle",
+                "D: rectangle"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 46,
+            "subject": "English Skills",
+            "question": "Opposite of hard?",
+            "options": [
+                "A: soft",
+                "B: tough",
+                "C: solid",
+                "D: hard"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 47,
+            "subject": "English Skills",
+            "question": "What do we use to smell?",
+            "options": [
+                "A: nose",
+                "B: eyes",
+                "C: ears",
+                "D: tongue"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 48,
+            "subject": "English Skills",
+            "question": "Opposite of high?",
+            "options": [
+                "A: low",
+                "B: tall",
+                "C: high",
+                "D: short"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 49,
+            "subject": "English Skills",
+            "question": "A cow gives us?",
+            "options": [
+                "A: milk",
+                "B: eggs",
+                "C: honey",
+                "D: wool"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 50,
+            "subject": "English Skills",
+            "question": "Opposite of in?",
+            "options": [
+                "A: out",
+                "B: inside",
+                "C: on",
+                "D: under"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 51,
+            "subject": "Mini GK",
+            "question": "In India which tomb building is famous for Mumtaz Mahal?",
+            "options": [
+                "A: Taj Mahal",
+                "B: Red Fort",
+                "C: Qutub Minar",
+                "D: India Gate"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 52,
+            "subject": "Mini GK",
+            "question": "Which tall building has 160 floors in Dubai?",
+            "options": [
+                "A: Burj Khalifa",
+                "B: Eiffel Tower",
+                "C: Statue of Liberty",
+                "D: Big Ben"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 53,
+            "subject": "Mini GK",
+            "question": "In Kuala Lumpur which twin buildings are connected by a skybridge?",
+            "options": [
+                "A: Petronas Towers",
+                "B: Twin Towers",
+                "C: Sears Tower",
+                "D: Empire State"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 54,
+            "subject": "Mini GK",
+            "question": "Which old stadium was used for gladiator fights in Rome?",
+            "options": [
+                "A: Colosseum",
+                "B: Pantheon",
+                "C: Forum",
+                "D: Circus Maximus"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 55,
+            "subject": "Mini GK",
+            "question": "Which race finds the fastest person in the world in under 10 seconds?",
+            "options": [
+                "A: Sprint",
+                "B: Marathon",
+                "C: Relay",
+                "D: Hurdles"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 56,
+            "subject": "Mini GK",
+            "question": "Pawns, rooks, and checkmates uses in which game?",
+            "options": [
+                "A: Chess",
+                "B: Checkers",
+                "C: Snakes and Ladders",
+                "D: Ludo"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 57,
+            "subject": "Mini GK",
+            "question": "Formula 1 involves in which sport?",
+            "options": [
+                "A: Car Racing",
+                "B: Bike Racing",
+                "C: Horse Racing",
+                "D: Boat Racing"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 58,
+            "subject": "Mini GK",
+            "question": "Which sport has swimming, cycling, and running in one event?",
+            "options": [
+                "A: Triathlon",
+                "B: Decathlon",
+                "C: Pentathlon",
+                "D: Biathlon"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 59,
+            "subject": "Mini GK",
+            "question": "Which item helps you cut fruits or vegetables?",
+            "options": [
+                "A: Knife",
+                "B: Spoon",
+                "C: Fork",
+                "D: Plate"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 60,
+            "subject": "Mini GK",
+            "question": "Which item helps you see the time in a room?",
+            "options": [
+                "A: Clock",
+                "B: Calendar",
+                "C: Watch",
+                "D: Phone"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 61,
+            "subject": "Mini GK",
+            "question": "Why do children use crayons on a sheet?",
+            "options": [
+                "A: Drawing",
+                "B: Writing",
+                "C: Eating",
+                "D: Playing"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 62,
+            "subject": "Mini GK",
+            "question": "Which item helps carry clothes, books, and toys while traveling?",
+            "options": [
+                "A: Backpack",
+                "B: Suitcase",
+                "C: Bag",
+                "D: Wallet"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 63,
+            "subject": "Mini GK",
+            "question": "Which flower is the largest in the world?",
+            "options": [
+                "A: Rafflesia",
+                "B: Sunflower",
+                "C: Rose",
+                "D: Lily"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 64,
+            "subject": "Mini GK",
+            "question": "Which sea animal makes the loudest sound?",
+            "options": [
+                "A: Blue Whale",
+                "B: Dolphin",
+                "C: Shark",
+                "D: Octopus"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 65,
+            "subject": "Mini GK",
+            "question": "Which bird flies the fastest in the world?",
+            "options": [
+                "A: Peregrine Falcon",
+                "B: Eagle",
+                "C: Owl",
+                "D: Sparrow"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 66,
+            "subject": "Mini GK",
+            "question": "Which bird is the smallest in the world?",
+            "options": [
+                "A: Hummingbird",
+                "B: Robin",
+                "C: Pigeon",
+                "D: Crow"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 67,
+            "subject": "Mini GK",
+            "question": "Which thing in the sky provides light at night?",
+            "options": [
+                "A: Moon",
+                "B: Sun",
+                "C: Star",
+                "D: Cloud"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 68,
+            "subject": "Mini GK",
+            "question": "Where do fish live?",
+            "options": [
+                "A: water",
+                "B: land",
+                "C: air",
+                "D: tree"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 69,
+            "subject": "Mini GK",
+            "question": "Where do polar bears live?",
+            "options": [
+                "A: Arctic",
+                "B: Desert",
+                "C: Forest",
+                "D: Ocean"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 70,
+            "subject": "Mini GK",
+            "question": "Which thing flies through the air and can take you far away?",
+            "options": [
+                "A: Airplane",
+                "B: Car",
+                "C: Train",
+                "D: Bike"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 71,
+            "subject": "Mini GK",
+            "question": "What tells you to wait before crossing the street?",
+            "options": [
+                "A: Traffic Light",
+                "B: Sign Board",
+                "C: Police",
+                "D: Horn"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 72,
+            "subject": "Mini GK",
+            "question": "What type of travel lets you stay in a tent?",
+            "options": [
+                "A: Camping",
+                "B: Hotel",
+                "C: Flight",
+                "D: Train"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 73,
+            "subject": "Mini GK",
+            "question": "What helps you know which way to go when you're lost?",
+            "options": [
+                "A: Compass",
+                "B: Map",
+                "C: Phone",
+                "D: Clock"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 74,
+            "subject": "Mini GK",
+            "question": "Which holiday has costumes, trick or treating, and pumpkins?",
+            "options": [
+                "A: Halloween",
+                "B: Christmas",
+                "C: Diwali",
+                "D: Easter"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 75,
+            "subject": "Mini GK",
+            "question": "Which Mexican food is made with a folded tortilla and meat?",
+            "options": [
+                "A: Taco",
+                "B: Pizza",
+                "C: Burger",
+                "D: Sandwich"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 76,
+            "subject": "Mini IT & AI",
+            "question": "What is used to type letters on computer?",
+            "options": [
+                "A: Keyboard",
+                "B: Mouse",
+                "C: Screen",
+                "D: Printer"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 77,
+            "subject": "Mini IT & AI",
+            "question": "What is used to point and click on computer?",
+            "options": [
+                "A: Mouse",
+                "B: Keyboard",
+                "C: Printer",
+                "D: CPU"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 78,
+            "subject": "Mini IT & AI",
+            "question": "What shows the pictures on computer?",
+            "options": [
+                "A: Monitor",
+                "B: Keyboard",
+                "C: Mouse",
+                "D: Speakers"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 79,
+            "subject": "Mini IT & AI",
+            "question": "What is a computer?",
+            "options": [
+                "A: Machine",
+                "B: Animal",
+                "C: Plant",
+                "D: Toy"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 80,
+            "subject": "Mini IT & AI",
+            "question": "What does AI stand for?",
+            "options": [
+                "A: Artificial Intelligence",
+                "B: Animal Intelligence",
+                "C: All India",
+                "D: Art Internet"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 81,
+            "subject": "Mini IT & AI",
+            "question": "What is used to print papers?",
+            "options": [
+                "A: Printer",
+                "B: Scanner",
+                "C: Monitor",
+                "D: Keyboard"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 82,
+            "subject": "Mini IT & AI",
+            "question": "What is the brain of computer?",
+            "options": [
+                "A: CPU",
+                "B: Screen",
+                "C: Mouse",
+                "D: Keyboard"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 83,
+            "subject": "Mini IT & AI",
+            "question": "What do we use to listen to music on computer?",
+            "options": [
+                "A: Speakers",
+                "B: Monitor",
+                "C: Printer",
+                "D: Mouse"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 84,
+            "subject": "Mini IT & AI",
+            "question": "Is a robot an example of AI?",
+            "options": [
+                "A: Yes",
+                "B: No",
+                "C: Maybe",
+                "D: Sometimes"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 85,
+            "subject": "Mini IT & AI",
+            "question": "What color is the power button usually?",
+            "options": [
+                "A: Red",
+                "B: Blue",
+                "C: Green",
+                "D: Yellow"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 86,
+            "subject": "Mini IT & AI",
+            "question": "What is internet?",
+            "options": [
+                "A: Network",
+                "B: Game",
+                "C: Book",
+                "D: Toy"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 87,
+            "subject": "Mini IT & AI",
+            "question": "What is a tablet?",
+            "options": [
+                "A: Small computer",
+                "B: Big computer",
+                "C: Phone",
+                "D: TV"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 88,
+            "subject": "Mini IT & AI",
+            "question": "What is a phone used for?",
+            "options": [
+                "A: Calling",
+                "B: Eating",
+                "C: Sleeping",
+                "D: Running"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 89,
+            "subject": "Mini IT & AI",
+            "question": "What is a camera for?",
+            "options": [
+                "A: Taking pictures",
+                "B: Listening",
+                "C: Smelling",
+                "D: Tasting"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 90,
+            "subject": "Mini IT & AI",
+            "question": "What is a game on computer?",
+            "options": [
+                "A: Fun activity",
+                "B: Work",
+                "C: Sleep",
+                "D: Eat"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 91,
+            "subject": "Mini IT & AI",
+            "question": "What is coding?",
+            "options": [
+                "A: Programming",
+                "B: Drawing",
+                "C: Singing",
+                "D: Dancing"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 92,
+            "subject": "Mini IT & AI",
+            "question": "What is a virus in computer?",
+            "options": [
+                "A: Bad program",
+                "B: Good program",
+                "C: Game",
+                "D: Picture"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 93,
+            "subject": "Mini IT & AI",
+            "question": "What is email?",
+            "options": [
+                "A: Message",
+                "B: Letter",
+                "C: Call",
+                "D: Text"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 94,
+            "subject": "Mini IT & AI",
+            "question": "What is Google?",
+            "options": [
+                "A: Search engine",
+                "B: Game",
+                "C: Book",
+                "D: Toy"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 95,
+            "subject": "Mini IT & AI",
+            "question": "What is a password?",
+            "options": [
+                "A: Secret code",
+                "B: Name",
+                "C: Number",
+                "D: Color"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 96,
+            "subject": "Mini IT & AI",
+            "question": "What is WiFi?",
+            "options": [
+                "A: Wireless internet",
+                "B: Wire",
+                "C: Food",
+                "D: Drink"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 97,
+            "subject": "Mini IT & AI",
+            "question": "What is a app?",
+            "options": [
+                "A: Program",
+                "B: Book",
+                "C: Toy",
+                "D: Food"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 98,
+            "subject": "Mini IT & AI",
+            "question": "What is virtual?",
+            "options": [
+                "A: Not real",
+                "B: Real",
+                "C: Big",
+                "D: Small"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 99,
+            "subject": "Mini IT & AI",
+            "question": "What is data?",
+            "options": [
+                "A: Information",
+                "B: Food",
+                "C: Toy",
+                "D: Game"
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": 100,
+            "subject": "Mini IT & AI",
+            "question": "What is robot used for?",
+            "options": [
+                "A: Help humans",
+                "B: Eat",
+                "C: Sleep",
+                "D: Play"
+            ],
+            "correct_answer": "A"
+        }
+    ]
+}
+
