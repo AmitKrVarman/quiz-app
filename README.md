@@ -1,5 +1,7 @@
 # My Static Site
 
+[![Node CI](https://github.com/AmitKrVarman/quiz-app/actions/workflows/node-tests.yml/badge.svg)](https://github.com/AmitKrVarman/quiz-app/actions/workflows/node-tests.yml) [![Coverage](https://codecov.io/gh/AmitKrVarman/quiz-app/branch/main/graph/badge.svg?token=CODECOV_TOKEN)](https://codecov.io/gh/AmitKrVarman/quiz-app)
+
 This project is a simple static website that serves as an entry point for users. It includes essential files for a functional web presence, including HTML, CSS, JavaScript, and documentation.
 
 ## Project Structure
