@@ -122,6 +122,8 @@
 
   <div class="progress" id="progress">Loading questions...</div>
 
+  <div class="subtitle" id="view-count" aria-live="polite" style="text-align:center;">Views: —</div>
+
   <div class="questions-grid" id="questions-container"></div>
 
   <div class="nav-buttons" id="nav">
@@ -143,9 +145,29 @@ let questionsPerPage = window.innerWidth < 768 ? questionsPerPageMobile : questi
 
 const container = document.getElementById('questions-container');
 const progress = document.getElementById('progress');
+const viewCountEl = document.getElementById('view-count');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const summaryDiv = document.getElementById('summary');
+
+// navigation helpers for randomized paging
+let seenPages = new Set();
+let pageHistory = [];
+
+function incrementViewCount() {
+  // Use public CountAPI to increment and fetch the view count for this site
+  // Namespace/key chosen to be unique to this repo
+  fetch('https://api.countapi.xyz/hit/amitkrvarman/quiz-app')
+    .then(res => res.json())
+    .then(data => {
+      if (viewCountEl && data && typeof data.value !== 'undefined') {
+        viewCountEl.textContent = `Views: ${data.value}`;
+      }
+    })
+    .catch(() => {
+      if (viewCountEl) viewCountEl.textContent = '';
+    });
+} 
 
 async function loadQuestions() {
   try {
@@ -163,7 +185,13 @@ async function loadQuestions() {
     });
 
     if (quizData.length === 0) throw new Error('No questions found in JSON');
+    // reset navigation state and render
+    seenPages = new Set();
+    pageHistory = [];
     renderPage();
+
+    // increment and show view counter (CountAPI)
+    incrementViewCount();
   } catch (err) {
     progress.textContent = 'Error: ' + err.message;
     console.error(err);
@@ -226,8 +254,17 @@ function renderPage() {
 
   progress.textContent = `Questions ${start + 1} – ${end} of ${quizData.length}`;
 
-  prevBtn.disabled = currentPage === 0;
-  nextBtn.textContent = end >= quizData.length ? 'Finish Test' : 'Next Page';
+  // mark current page as seen and update navigation state
+  const totalPages = Math.ceil(quizData.length / questionsPerPage);
+  seenPages.add(currentPage);
+
+  prevBtn.disabled = pageHistory.length === 0;
+  // determine unseen pages to decide button label
+  const unseen = [];
+  for (let i = 0; i < totalPages; i++) {
+    if (!seenPages.has(i)) unseen.push(i);
+  }
+  nextBtn.textContent = unseen.length === 0 ? 'Finish Test' : 'Random Next';
 
   attachSubmitListeners();
 }
@@ -273,24 +310,34 @@ function attachSubmitListeners() {
 }
 
 prevBtn.addEventListener('click', () => {
-  if (currentPage > 0) {
-    currentPage--;
+  if (pageHistory.length > 0) {
+    currentPage = pageHistory.pop();
     renderPage();
   }
 });
 
 nextBtn.addEventListener('click', () => {
-  const maxPage = Math.ceil(quizData.length / questionsPerPage) - 1;
-  if (currentPage < maxPage) {
-    currentPage++;
-    renderPage();
-  } else {
+  const totalPages = Math.ceil(quizData.length / questionsPerPage);
+  // compute unseen pages
+  const unseen = [];
+  for (let i = 0; i < totalPages; i++) {
+    if (!seenPages.has(i)) unseen.push(i);
+  }
+
+  if (unseen.length === 0) {
+    // no unseen pages left -> finish test
     const percent = Math.round((score / quizData.length) * 100);
     summaryDiv.innerHTML = `Test Complete!<br>Your Score: ${score} / ${quizData.length} (${percent}%)`;
     summaryDiv.style.display = 'block';
     document.getElementById('nav').style.display = 'none';
     progress.style.display = 'none';
+    return;
   }
+
+  const nextPage = unseen[Math.floor(Math.random() * unseen.length)];
+  pageHistory.push(currentPage);
+  currentPage = nextPage;
+  renderPage();
 });
 
 window.addEventListener('resize', () => {
@@ -298,6 +345,9 @@ window.addEventListener('resize', () => {
   if (newPerPage !== questionsPerPage) {
     questionsPerPage = newPerPage;
     currentPage = 0;
+    // reset navigation state when page size changes
+    seenPages = new Set();
+    pageHistory = [];
     renderPage();
   }
 });
