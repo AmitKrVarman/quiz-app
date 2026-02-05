@@ -1,0 +1,29 @@
+{
+  "title": "Mock Question Paper for USO National Tests 2025 - Grade 1 or Below",
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Mental Math",
+      "question": "What is 1 + 1?",
+      "options": [
+        "A: 1",
+        "B: 2",
+        "C: 3",
+        "D: 4"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 2,
+      "subject": "Mental Math",
+      "question": "What is 1 + 2?",
+      "options": [
+        "A: 2",
+        "B: 3",
+        "C: 4",
+        "D: 5"
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}
