@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz Admin</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; padding: 20px; max-width: 900px; margin: 0 auto; }
+    h1 { color: #2c5aa0; }
+    .row { display:flex; gap:16px; align-items:center; }
+    .quiz-list { margin-top: 1rem; }
+    .quiz-item { padding: 0.6rem; border: 1px solid #e0e0e0; border-radius:6px; display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+    .btn { padding:0.5rem 0.8rem; border-radius:6px; border:none; cursor:pointer; }
+    .btn-primary { background:#2c5aa0; color:white; }
+    .btn-danger { background:#c53030; color:white; }
+    textarea { width:100%; height:240px; font-family:monospace; margin-top:8px; }
+    input[type=file] { display:inline-block; }
+    .small { font-size:0.9rem; color:#666; }
+  </style>
+</head>
+<body>
+  <div style="display:flex; justify-content:space-between; align-items:center; gap:12px;">
+    <h1>Quiz Admin</h1>
+    <div>
+      <a href="/index.html" style="color:#2c5aa0; text-decoration:none; font-weight:600; margin-right:12px;">Open Site</a>
+      <a href="/" style="color:#666;">Home</a>
+    </div>
+  </div>
+  <p class="small">Upload JSON quiz files and set which quiz is active for the main site.</p>
+
+  <section>
+    <h2>Available quizzes</h2>
+    <div id="quizzes" class="quiz-list">Loading…</div>
+  </section>
+
+  <section id="editorSection" style="margin-top:1rem; display:none;">
+    <h2>Editor: <span id="editFilename"></span></h2>
+    <div class="small">Toggle whether each question is <strong>mandatory</strong> (user must answer before proceeding).</div>
+    <div id="editorContent" style="margin-top:8px;"></div>
+    <div style="margin-top:8px;">
+      <button id="saveChangesBtn" class="btn btn-primary">Save Changes</button>
+      <button id="cancelEditBtn" class="btn" style="margin-left:8px;">Cancel</button>
+    </div>
+  </section>
+
+  <section style="margin-top:1.2rem;">
+    <h2>Upload new quiz</h2>
+    <div class="row">
+      <input type="file" id="fileInput" accept=".json">
+      <button id="uploadBtn" class="btn btn-primary">Upload</button>
+    </div>
+    <div class="small">Or paste JSON below and choose a filename</div>
+    <input id="textFilename" placeholder="filename.json" style="margin-top:8px; width:40%; padding:6px;" />
+    <textarea id="jsonArea" placeholder='Paste quiz JSON here'></textarea>
+    <div style="margin-top:8px;"><button id="pasteUploadBtn" class="btn btn-primary">Upload pasted JSON</button></div>
+  </section>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>

@@ -47,6 +47,26 @@ my-static-site
 - Modify the HTML, CSS, and JavaScript files in the `public` directory to customize the website.
 - Update the `docs/about.md` file for any additional documentation or information about the site.
 
+## Ads & Analytics
+
+This project includes scaffolding for web analytics and ad placement. By default the project contains placeholder snippets — you must replace the placeholder IDs with your own before publishing.
+
+- Google Analytics (GA4): add your Measurement ID in `public/index.html` by replacing `G-XXXXXXXXXX` with your `G-` ID.
+- Google AdSense (web): set your publisher ID (`ca-pub-...`) and ad unit IDs in the AdSense placeholders in `public/index.html`.
+- AdMob (mobile): for Android/iOS builds use the AdMob SDK (via Capacitor/Android/iOS native integration). This repo only includes a web scaffold; mobile integration requires native configuration and is not included here.
+
+Privacy note: if you use analytics and ads, ensure you provide any required privacy disclosures and consent mechanisms for users (GDPR/CCPA) before publishing.
+
+## Admin UI
+
+An admin page is available at `/admin.html` (when running the included `server.js`) to manage quiz JSON files. It lets you:
+
+- List available quiz files stored under `public/quizzes/`.
+- Upload new JSON quiz files (paste or upload file).
+- Set any uploaded quiz as the active quiz for the main site (copies to `public/questions.json`).
+
+Usage (local): run `node server.js` and open `http://localhost:3000/admin.html`.
+
 ## License
 
 This project is licensed under the Apache License 2.0.

@@ -3,6 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Analytics: GA4 gtag (replace G-XXXXXXXXXX with your Measurement ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    // Replace with your GA4 Measurement ID
+    gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true });
+  </script>
+  <!-- Google AdSense placeholder (web). Replace data-ad-client with your publisher ID (ca-pub-XXXX). -->
+  <script data-ad-client="ca-pub-XXXXXXXXXXXXXX" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <title>USO AccessAbility Series – Practice Test</title>
   <style>
     :root {
@@ -117,6 +128,9 @@
 <body>
 
 <div class="container">
+  <div style="text-align:right; font-size:0.9rem; margin-bottom:8px;">
+    <a href="/admin.html" style="color:#2c5aa0; text-decoration:none; font-weight:600;">Admin</a>
+  </div>
   <h1>USO AccessAbility Series – Practice Test</h1>
   <p class="subtitle">100 Questions – General Knowledge, Math, Science, English & Life Skills</p>
 
@@ -125,6 +139,18 @@
   <div class="subtitle" id="view-count" aria-live="polite" style="text-align:center;">Views: —</div>
 
   <div class="questions-grid" id="questions-container"></div>
+
+  <!-- Ad slot placeholder: replace data-ad-client and data-ad-slot with your AdSense values. For mobile apps use AdMob SDK (native). -->
+  <div style="text-align:center; margin: 1rem 0;">
+    <!-- Example responsive AdSense slot (inactive until you set your publisher and unit IDs) -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXX"
+         data-ad-slot="0000000000"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
 
   <div class="nav-buttons" id="nav">
     <button class="btn btn-secondary btn-nav" id="prevBtn" disabled>Previous</button>
@@ -177,11 +203,12 @@ async function loadQuestions() {
     // support both an array or an object with a 'questions' array
     quizData = Array.isArray(json) ? json : (json.questions || []);
 
-    // normalize each question: ensure options array and a canonical 'correct' letter
+    // normalize each question: ensure options array, canonical 'correct' letter, and preserve 'mandatory'
     quizData = quizData.map((q, i) => {
       const options = Array.isArray(q.options) ? q.options.slice() : (Array.isArray(q.choices) ? q.choices.slice() : []);
       const correct = (q.correct ?? q.correct_answer ?? q.correctAnswer ?? '').toString().trim().toUpperCase();
-      return { ...q, options, correct };
+      const mandatory = !!q.mandatory;
+      return { ...q, options, correct, mandatory };
     });
 
     if (quizData.length === 0) throw new Error('No questions found in JSON');
@@ -305,6 +332,19 @@ function attachSubmitListeners() {
         res.textContent = "Incorrect ✗";
         res.classList.add('wrong');
       }
+
+      // Analytics: send answer event to GA4 if configured
+      try {
+        if (typeof gtag === 'function') {
+          gtag('event', 'answer_submitted', {
+            'question_id': q.id,
+            'selected': answers[idx],
+            'correct': (answers[idx] === correctLetter) ? 1 : 0
+          });
+        }
+      } catch (e) {
+        // ignore analytics errors
+      }
     });
   });
 }
@@ -332,6 +372,20 @@ nextBtn.addEventListener('click', () => {
     document.getElementById('nav').style.display = 'none';
     progress.style.display = 'none';
     return;
+  }
+
+  // Before navigating, ensure mandatory questions on the current page are answered
+  const start = currentPage * questionsPerPage;
+  const end = Math.min(start + questionsPerPage, quizData.length);
+  const pageItems = quizData.slice(start, end);
+  for (const q of pageItems) {
+    if (q.mandatory) {
+      const idx = q.id - 1;
+      if (typeof answers[idx] === 'undefined') {
+        alert('Please answer all mandatory questions on this page before continuing.');
+        return;
+      }
+    }
   }
 
   const nextPage = unseen[Math.floor(Math.random() * unseen.length)];
