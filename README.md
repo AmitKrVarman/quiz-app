@@ -4,6 +4,8 @@
 
 This project is a simple static website that serves as an entry point for users. It includes essential files for a functional web presence, including HTML, CSS, JavaScript, and documentation.
 
+> Note: The project includes a GitHub Actions workflow that runs unit tests and publishes coverage to Codecov. For private repositories, add a `CODECOV_TOKEN` repository secret (see Codecov docs) to enable automatic coverage uploads and the coverage badge.
+
 ## Project Structure
 
 ```
@@ -47,4 +49,10 @@ my-static-site
 
 ## License
 
-This project is open-source and available for use and modification.
+This project is licensed under the Apache License 2.0.
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+You may use and modify this code and monetize it (for example, with ads
+or hosted services) provided you comply with the terms of the
+Apache-2.0 license. See the [LICENSE](LICENSE) file for full details.
