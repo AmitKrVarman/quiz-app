@@ -67,6 +67,34 @@ An admin page is available at `/admin.html` (when running the included `server.j
 
 Usage (local): run `node server.js` and open `http://localhost:3000/admin.html`.
 
+## Publishing to GitHub Pages
+
+You can publish the contents of the `public/` folder to GitHub Pages. Two common options:
+
+1) Quick deploy with `gh-pages` (recommended for this repo):
+
+   - Install dev dependency and publish:
+
+```powershell
+npm install --save-dev gh-pages
+npm run deploy
+```
+
+   - The `deploy` script uses `npx gh-pages -d public` and will create/update the `gh-pages` branch for you.
+
+   - Before running, set the `homepage` field in `package.json` to your GitHub Pages URL, for example:
+
+```
+"homepage": "https://your-github-username.github.io/your-repo-name"
+```
+
+2) Manual GitHub Pages (via repo settings):
+
+   - Push your repository to GitHub.
+   - In the repository Settings → Pages, choose the `gh-pages` branch (or `main` and `/docs` folder) as the source and save.
+
+Privacy & Ads: If you add analytics or ads, make sure your privacy policy and consent banner (if required) are in place before publishing.
+
 ## License
 
 This project is licensed under the Apache License 2.0.

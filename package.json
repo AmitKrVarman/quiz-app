@@ -2,11 +2,14 @@
   "name": "quiz-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://<YOUR-GITHUB-USERNAME>.github.io/<REPO-NAME>",
   "scripts": {
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "deploy": "npx gh-pages -d public"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "jest": "^29.6.1"
   }
 }
